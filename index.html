@@ -1,0 +1,368 @@
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>LearnOpedia</title>
+	<style>	
+	img{
+		animation-name: image;
+		animation-duration: 40s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}	
+	@keyframes image{
+		0%{
+			filter: hue-rotate(360deg);
+		}
+		20%{
+			filter: hue-rotate(90deg);
+		}
+		40%{
+			filter: hue-rotate(180deg);
+		}
+		60%{
+			filter:hue-rotate(100deg);
+		}
+		75%{
+			filter:hue-rotate(306deg);
+		}
+		100%{
+			filter:hue-rotate(40deg);
+		}
+	}
+	.menu{
+		text-decoration:none;
+		font-style:italic;
+		font-weight:bold;
+		background-image:linear-gradient(#1AE8D5,#7825DE);
+		color:white;
+		border-radius:10px;
+		padding:5px;
+		animation-name:menu;
+		animation-duration:40s;
+		animation-iteration-count:infinite;
+		animation-direction: alternate;
+	     }
+	.menu:hover{
+		font-size:25px;
+		cursor:pointer;
+		animation-name:menu;
+		animation-duration:40s;
+		animation-iteration-count:infinite;
+         	    }
+	.menu:active{
+		background-image:linear-gradient(#E61800,#481AEB);
+		animation-name:menu;
+		animation-duration:40s;
+		animation-iteration-count:infinite;
+		}
+		@keyframes menu{
+			0%{
+				text-decoration:none;
+				font-style:italic;
+				font-weight:bold;
+				background-image:linear-gradient(#00FFA1,#FF002F);
+				padding:5px;
+			}
+			20%{
+				text-decoration:none;
+				font-style:italic;
+				font-weight:bold;
+				background-image:linear-gradient(#FFCF00,#0077FF);
+				padding:5px;
+			}
+			40%{
+				text-decoration:none;
+				font-style:italic;
+				font-weight:bold;
+				background-image:linear-gradient(#FF002F,#EAFF00);
+				padding:5px;
+				}
+				60%{
+					background-image:linear-gradient(#1AE8D5,#7825DE);
+					text-decoration:none;
+					font-style:italic;
+					font-weight:bold;
+					padding:5px;
+					}
+			75%{
+				text-decoration:none;
+				font-style:italic;
+				font-weight:bold;
+				background-image:linear-gradient(#00FF68,#A549AC);
+				padding:5px;
+				}
+				100%{
+					text-decoration:none;
+				font-style:italic;
+				font-weight:bold;
+				background-image:linear-gradient(#5D49AC,#E51413);
+				padding:5px;
+					}
+		}
+	.heading{
+		
+		border-radius:25px;
+		transition: color 0.1s;
+		transition-timing-function: ease-in;
+		animation-name: heading;
+		animation-duration: 40s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		        }
+		.heading:hover{
+			color:white;
+		}
+		@keyframes heading{
+				0%{
+					background-image:radial-gradient(#00FFA1,orange,white,white,#FF002F,turquoise);
+		 			color:#FF002F;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #00FFA1; 
+				}
+				20%{
+					background-image:radial-gradient(#FFCF00,orange,white,white,#0077FF,turquoise);
+		 			color:#0077FF;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #FFCF00;
+				}
+				40%{
+					background-image:radial-gradient(#FF002F,orange,white,white,#EAFF00,turquoise);
+		 			color:#EAFF00;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #FF002F;
+				}
+				60%{
+					background-image:radial-gradient(#1AE8D5,orange,white,white,#7825DE,turquoise);
+		 			color:#7825DE;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #1AE8D5;
+				}
+				75%{
+					background-image:radial-gradient(#00FF68,orange,white,white,#A549AC,turquoise);
+		 			color:#A549AC;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #00FF68;
+				}
+				100%{
+					background-image:radial-gradient(#5D49AC,orange,white,white,#E51413,turquoise);
+		 			color:#E51413;
+					text-shadow:1px 1px 2px black,0 0 25px orange,0 0 10px #5D49AC;
+				}
+		}
+		body{
+			background-image:linear-gradient(#1AE8D5,#7825DE,#7825DE,#1A6EFA);
+			animation-name:body;
+			animation-duration:40s;
+			animation-iteration-count:infinite;
+			animation-direction: alternate;
+		    }
+		   @keyframes body{
+				0%{
+				background-image:linear-gradient(#00FFA1,#FF002F);
+				}
+				20%{
+					background-image:linear-gradient(#FFCF00,#0077FF);
+				}
+				40%{
+					background-image:linear-gradient(#FF002F,#EAFF00);
+				}
+				60%{
+					background-image:linear-gradient(#1AE8D5,#7825DE);
+				}
+				75%{
+					background-image:linear-gradient(#00FF68,#A549AC);
+				}
+				100%{
+					background-image:linear-gradient(#5D49AC,#E51413);
+					}
+		   }
+		.info{
+			font-size:16px;
+			color:white;
+			animation-name:info;
+			animation-duration:40s;
+			animation-iteration-count:infinite;
+			animation-direction: alternate;
+		}
+		.info:hover{
+			font-style:italic;
+		}
+		@keyframes info{
+			0%{
+				text-shadow:0 0 25px #00FFA1, 2px 1px 30px #FF002F,0 0 25px #FF002F, 2px 1px 30px #00FFA1;
+				}
+			20%{
+				text-shadow:0 0 25px #FFCF00,2px 1px #0077FF,0 0 25px #0077FF,2px 1px 30px #FFCF00; 
+				}
+			40%{
+				text-shadow:0 0 25px #FF002F,2px 1px #EAFF00,0 0 25px #EAFF00,2px 1px 30px #FF002F;
+				}
+			60%{
+				text-shadow:0 0 25px #1AE8D5, 2px 1px #7825DE,0 0 25px #7825DE,2px 1px 30px #1AE8D5;
+			}
+			75%{
+				text-shadow:0 0 25px #00FF68,2px 1px #A549AC,0 0 25px #A549AC,2px 1px #00FF68;
+			}
+			100%{
+				text-shadow:0 0 25px #5D49AC,2px 1px #E51413,0 0 25px #E51413,2px 1px #5D49AC;
+				}
+		}
+			
+			
+		li{
+			padding:10px;
+			font-weight:bold;
+			color:white;
+			text-shadow:1px 1px 2px darkblue,0 0 25px turquoise,0 0 10px cyan,0 0 5px red;
+		}
+		#books,.notes{
+			color:#1AFAA1;
+			text-shadow:0 0 25px red,1px 1px 40px darkblue,1px 2px 50px cyan,0 0 30px black;
+		}
+		.summary:hover{
+			cursor:pointer;
+		}
+		::-webkit-scrollbar
+		{
+			width: 0;
+		}
+		#scrollpath
+		{
+			position: fixed;
+			top: 0;
+			right: 0;
+			width:10px;
+			height:100%;
+			background:rga(255,255,255,0.5);
+		}
+		#progressbar{
+			position:fixed;
+			top:0;
+			right:0;
+			width:10px;
+			height:100%;
+			background:linear-gradient(to top, #008aff, #00ffe7);
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animate
+		{
+			0%
+			{
+				filter: hue-rotate(0deg);
+			}
+			50%{
+				filter:hue-rotate(360deg);
+			}
+		}
+		#progressbar:before
+		{
+			content:'';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to top, #008aff,#00ffe7);
+			filter: blur(30px);
+		}
+		#scrollpath:before
+		{
+			content:'';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to top, #008aff,#00ffe7);
+			filter: blur(30px);
+		}
+
+	</style>
+	</head>
+	<body>
+		<p><a class="menu" href="#books">Books</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="notes.html" class="menu">Notes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="audio.html" class="menu">Audio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="video.html" class="menu">Video</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://telegra.ph/Code-Editor-For-All-Devices-08-10" class="menu">Compiler</a></p>
+		<h1 align="center" class="heading">Computer Science-LearnOpedia</h1>
+	<table>
+		<td><img src="https://miro.medium.com/max/2488/1*D_aNKgVukU1vMh2wy_F-Hw.jpeg" width="420"height="230"></td>
+		<td class="info">Computer Science LearnOpedia Is Made By<strong><em> Pradeep Kumar Pradhan</em></strong>, Assistance Teacher Of <em>Debnagar Mokshda Dinda High School.</em> For Providing Students E-Class In The Period Of Lockdown.</td>
+
+	</table>
+	<h6><a class="menu" href="https://drive.google.com/file/d/1HsG2ah_m_Osdiieh2ME6rUVkWkJo2VfZ/view?usp=sharing">Download Our Android App Now!!</a></h6>
+	<h4 id="books">Computer Science Book(<i>Bengali Version</i>)&nbsp;&nbsp; <a href="https://bijitmondal.tumblr.com/post/625515324609085440/sanmay-kundu-class-12-book" target="Bijit" class="menu">Download</a></h4>
+	<h3 id="books">Rudiments Of Computer Science</h3>
+	<ul>
+		<li>Contents &nbsp;&nbsp;<a target="blank" href="https://www.jiocloud.com/s/?t=FJAHMLvHGofbkKwS&s=a7"class="menu">Download</a></li>
+		<li>An Introduction To Networking &nbsp;&nbsp;<a target="blank" href="https://www.jiocloud.com/s/?t=jibaPDsTSptRwUpT&s=a7"class="menu">Download</a></li>
+		<li>Network Components &nbsp;&nbsp;<a target="blank" href="https://icedrive.net/0/06fDhjmEbd"class="menu">Download</a></li>
+		<li>Network Architecture & Topology &nbsp;&nbsp;<a target="blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5725227f-332d-4f0f-b781-10590656524e"class="menu">Download</a></li>		
+		<li>Local Area Network &nbsp;&nbsp;<a target="blank" href="https://www.mediafire.com/file/nm0s2saw3hl38ki/Local+Area+Network.pdf/file"class="menu">Download</a></li>
+		<li>Wide Area Network &nbsp;&nbsp;<a target="blank" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e257397d-1c73-452e-ba0d-d8b8b4df376c"class="menu">Download</a></li>
+		<li>The Internet & It's Application &nbsp;&nbsp;<a target="blank" href="https://www.scribd.com/document/472592478/The-Internet-and-It-s-Application"class="menu">Download</a></li>
+		<li>Intro To HTML&nbsp;&nbsp;<a target="blank" href="https://www.scribd.com/document/472083646/Intro-To-HTML-Language"class="menu">Download</a></li>
+		<li>Introduction To DBMS &nbsp;&nbsp;<a target="blank" href="https://1drv.ms/b/s!AigX7SoyCJSghQxnwKF-zTEPZgir"class="menu">Download</a></li>
+		<li>The Relation Model & Normalisation &nbsp;&nbsp;<a target="blank" href="https://www.scribd.com/document/472177175/The-Relation-Model-Normalisation-pdf"class="menu">Download</a></li>
+		<li>Relational Algebra &nbsp;&nbsp;<a target="blank" href="https://www.scribd.com/document/472200513/PDF-2020-08-12-08-06-42-1561145928-pdf"class="menu">Download</a></li>
+		<li>S-Q-L &nbsp;&nbsp;<a target="blank" href="https://jmp.sh/b/dA7nnv0jD9RVUTisVi7T"class="menu">Download</a></li>
+		<li>Sequential Cicuits &nbsp;&nbsp;<a target="blank" href=""class="menu">Download</a></li>
+		<li>Programming In C: Pointer 1 &nbsp;&nbsp;<a target="blank" href="http://www.mediafire.com/file/wb1ox9iobcf5wuz/file"class="menu">Download</a></li><li>Programming In C: Pointer 2 &nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/19SDWQVqDtJi1xx6ZqDZUVT9bZy1Ast-8/view?usp=sharing"class="menu">Download</a></li>
+		<li>File Handling In C &nbsp;&nbsp;<a target="blank" href=""class="menu">Download</a></li>
+		<li>Data Structure Using C &nbsp;&nbsp;<a target="blank" href=""class="menu">Download</a></li>
+		<li>Progrmming In C: File Handling &nbsp;&nbsp;<a target="blank" href=""class="menu">Download</a></li>
+		<li>A Brief Manual To MS-Access &nbsp;&nbsp;<a target="blank" href=""class="menu">Download</a></li>
+	</ul>
+	<h3 class="notes">Notes, Audio & Video Of E-Class By Pradeep Kumar Pradhan(SIR)</h3>
+	<ul><details><summary class="summary">
+		<li>Sequential Logic Circuit</li></summary>
+		<ul>
+			<li>Sequential Logic Circuits Pdf&nbsp;&nbsp;<a target="blank" href="https://www.amazon.com/clouddrive/share/lpJR0s1iuKsN5PGBUeqvYWeTgZW2HIcUvPd3l5rMq23"class="menu">Download</a></li>
+			<li>Sequential Logic Cicuits Audio 1&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 2&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 3&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 4&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 5&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 6&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+			<li>Sequential Logic Circuits Audio 7&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/LOLbmdV"class="menu">Download</a></li>
+		</ul>
+	</details>
+		<details><summary class="summary"><li>Data Structure</li></summary>
+			<ul>
+				<li>Data Structure Pdf&nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/1LvjsGuFOJuTGwLqMFQp3I8d02D7-b21O/view?usp=sharing"class="menu">Download</a></li>
+				<li>Data Structure Audio 1&nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/1_v5WxDf3oZIlEWxn6neSWm-MOWtgu3lU/view?usp=sharing"class="menu">Download</a></li>
+				<li>Data Structure Audio 2&nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/1XdxSOiXe5UvHXn-kF025-zdTbusepyi2/view?usp=sharing"class="menu">Download</a></li>
+				<li>Data Structure Audio 3&nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/1nk0cRrK7ybgEh361WGtJ-GlnpuQs-Mnp/view?usp=sharing"class="menu">Download</a></li>
+				<li>Data Structure Audio 4&nbsp;&nbsp;<a target="blank" href="https://drive.google.com/file/d/1QU2bNcOhk_s15Mcj-S3G9joLVUuRqaaE/view?usp=sharing"class="menu">Download</a></li>
+				<li>Stack.cpp&nbsp;&nbsp;<a target="blank" href="https://pdfhost.io/v/gsHlYZTmJ_Stackpdf.pdf"class="menu">Run</a></li>
+				<li>Queue.cpp&nbsp;&nbsp;<a target="blank" href="https://pdfhost.io/v/kcjupkjG._Queuepdf.pdf"class="menu">Run</a></li>
+			</ul>
+		</details>
+		<details><summary class="summary"><li>Computer Networking</li></summary>
+			<ul>
+				<li>Computer Networking Pdf 1&nbsp;&nbsp;<a target="blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:076cb05c-b5b3-44b2-a77c-fc81b7a1c317"class="menu">Download</a></li>
+				<li>Computer Networking Pdf 2&nbsp;&nbsp;<a target="blank" href="https://pdfhost.io/v/gO6JVHF~5_Computer_Networking_2pdf.pdf"class="menu">Download</a></li>
+				<li>Computer Networking Pdf 3&nbsp;&nbsp;<a target="blank" href="https://www.scribd.com/document/471942156/Computer-Networking-Part-3-pdf"class="menu">Download</a></li>
+				<li>Computer Networking Pdf 4&nbsp;&nbsp;<a target="blank" href="https://pdfhost.io/v/0fBFznpul_Computer_Networking_Part_4pdf.pdf"class="menu">Download</a></li>
+				<li>Computer Networking Audio 1&nbsp;&nbsp;<a target="blank" href="http://coms2019.epizy.com/CN1.ogg"class="menu">Download</a></li>
+				<li>Computer Networking Audio 2&nbsp;&nbsp;<a target="blank" href="https://www.mediafire.com/file/2jatgqvyremr0f8/CN2.ogg/file"class="menu">Download</a></li>
+				<li>Computer Networking Audio 3&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/D5oVg4M"class="menu">Download</a></li>
+				<li>Computer Networking Audio 4&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/D5oVg4M"class="menu">Download</a></li>
+				<li>Computer Networking Audio 5&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/D5oVg4M"class="menu">Download</a></li>
+				<li>Computer Networking Audio 6&nbsp;&nbsp;<a target="blank" href="https://jmp.sh/D5oVg4M"class="menu">Download</a></li>
+			<li><details><summary class="summary">Video 1:DNS,ISDN,FIREWALL,E-MAIL&nbsp;&nbsp;<a class="menu">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/4nsApcBfK5g" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+	</ul>
+		</details>
+	    <details><summary class="summary"><li>Introduction To DBMS</li></summary>
+	   
+			<ul>
+				<li>Introduction To DBMS Pdf 1&nbsp;&nbsp;<a target="blank" href="https://icedrive.net/0/c2YwOjiB8g"class="menu">Download</a></li>
+                <li>Introduction To DBMS Pdf 2&nbsp;&nbsp;<a target="blank" href="https://www90.zippyshare.com/v/JvyZ29DX/file.html"class="menu">Download</a></li>
+                <li>Introduction To DBMS 3 &nbsp;&nbsp;<a href="https://drive.google.com/file/d/1dZlUYb_xco0s5wHmwTESkU4aw33tVUXY/view?usp=sharing" class="menu">Download</a></li>
+				<li><details><summary class="summary">Video 1:Introduction To Database,Advantages & Disadvantages of Database,Database V/S File System,DBMS &nbsp;&nbsp;<a class="menu">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/RAqPORcALwQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+				<li><details><summary class="summary">Video 2:Relation, Attributes, Tuples, Degree, Cardinality, Domain &nbsp;&nbsp;<a class="menu">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/kGeEVZ0P5Is" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+				<li><details><summary class="summary">Video 3:Types Of Attributes &nbsp;&nbsp;<a class="menu">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/7JeRVYF2ekw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+				<li><details><summary class="summary">Video 4:Meta Data, Data Dictionary&nbsp;&nbsp;<a class="menu">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/vZn4MgupUuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+				<li><details><summary class="summary">Video 5:Strong Entity set, Weak Entity Set, Types of Relationship, ER Diagram&nbsp;&nbsp;<a class="menu" href="https://www.youtube.com/watch?v=UH10GaAZ3sw">View</a></summary> <iframe width="560" height="315" src="https://www.youtube.com/embed/UH10GaAZ3sw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+				<li><details><summary class="summary">Video 6:Relational Algebra- Set Union, Intersection, Difference, Cartesian Product&nbsp;&nbsp;<a class="menu" href="https://www.youtube.com/watch?v=6ExaZkMtjQ4">View</a></summary><iframe width="560" height="315" src="https://www.youtube.com/embed/6ExaZkMtjQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details></li>
+			</ul>
+		</details>
+</ul>
+<h6 align="center"><a class="menu" href="https://drive.google.com/file/d/1HsG2ah_m_Osdiieh2ME6rUVkWkJo2VfZ/view?usp=sharing">Download Our Android App Now!!</a></h6>
+ <script>(function(){var pp=document.createElement('script'), ppr=document.getElementsByTagName('script')[0]; stid='cW9rUnc5M3hSMEVGdlBHTWRyUS8xZz09';pp.type='text/javascript'; pp.async=true; pp.src=('https:' == document.location.protocol ? 'https://' : 'http://') + 's01.live2support.com/dashboardv2/chatwindow/'; ppr.parentNode.insertBefore(pp, ppr);})();</script>
+</body>
+	</body>
+</html>
